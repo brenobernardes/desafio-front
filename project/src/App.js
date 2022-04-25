@@ -1,12 +1,10 @@
-import logo from './assets/logo.png';
-import './App.css';
+// import Home from "./pages/Home/home";
+import User from "./pages/User/user";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+      <User />
     </div>
   );
 }
