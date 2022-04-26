@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import Batman from '../../assets/img/batman.jpg'
-import './styles.css'
+import Batman from '../../assets/img/batman.jpg';
+import './styles.css';
 import { Button } from "../../components/Button/button.js";
 
 export default function User () {

@@ -10,15 +10,24 @@ export default function Contacts () {
 
     return (
         <div className="contactsPage">
-            <ul>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
                 {list().map(function(userData, i) { return (
-                    <li key={i}>
-                        <p>Nome: {userData.name}</p>
-                        <p>Email: {userData.email}</p>
-                        <p>Telefone: {userData.phone}</p>
-                    </li>
+                    <tbody key={i}>
+                        <td>{userData.name}</td>
+                        <td>{userData.email}</td>
+                        <td>{userData.phone}</td>
+                    </tbody>
                 )})}
-            </ul>
+            </table>
+
         </div>
     )
 }

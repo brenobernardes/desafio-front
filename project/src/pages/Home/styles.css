@@ -1,12 +1,25 @@
+:root {
+    --black: #000000;
+    --orange: #FFA500;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--white);
+}
+
 .homePage {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    width: 100px;
 }
 
 .homeLink{
-    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: var(--orange);
     border-radius: 5px;
     text-decoration: none;
-    color: black;
+    color: var(--black);
 }
