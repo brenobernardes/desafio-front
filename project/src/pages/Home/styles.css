@@ -1,0 +1,12 @@
+.homePage {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.homeLink{
+    background-color: orange;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
