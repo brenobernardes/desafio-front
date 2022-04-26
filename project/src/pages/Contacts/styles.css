@@ -1,0 +1,11 @@
+.contactsPage {
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    margin: 2% 20%;
+    border-radius: 50px;
+}
+
+.contactsPage li{
+    list-style-type: none;
+}
