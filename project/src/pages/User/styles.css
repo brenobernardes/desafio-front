@@ -2,8 +2,6 @@
     border-radius: 50px;
     display: flex;
     justify-content: center;
-    width: 80vw;
-    background-color: black;
 }
 
 .userPage img {
@@ -18,7 +16,8 @@
     display: flex;
     justify-content: center;
     border: solid black 1px;
-    width: 80vw;
+    border-top: solid black 100px;
+    margin: 2% 20%;
     height: 80vh;
     border-radius: 50px;
 }
@@ -31,7 +30,8 @@
 }
 
 .userPage label {
-    text-align: start;
+    text-align: left;
+    padding: 15px;
 }
 
 .userPage input {
@@ -39,4 +39,8 @@
     border-radius: 5px;
     width: 50vw;
     height: 30px;
+}
+
+.button {
+    margin-top: 40px;
 }
