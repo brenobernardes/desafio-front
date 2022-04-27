@@ -1,26 +1,39 @@
-# Teste prático Front-End
-
-Este teste é desenvolvido pela [Qesh](https://www.linkedin.com/company/qesh-payments/) e tem como objetivo avaliar tecnicamente o candidato para a vaga de Front-End.
-
-
-## **Instruções**
-
-Você deverá criar um `fork` deste repositório. Nesse fork, você encontrará a pasta `project`. 
-Todo o código fonte deve ser colocado dentro da pasta `project`.
-
-O repositório deverá ser público e não poderá ter nenhuma menção à Qesh.
-
-Você terá **48h** para realizar o teste, consideraremos até onde você conseguir chegar com o código.
-
-> Lembrando que não é necessária a conclusão do teste para envio do código.
-
-Ao finalizar, responda o email referente ao teste com o link do seu repositório.
-
 ## **Sobre o teste**
 
 Você desenvolverá um aplicativo de criação perfil de usuário, que exibirá suas informações básicas e que poderão ser editáveis posteriormente.
 
 A informações deverão ser mokadas, ou seja, não deverão ser obtidas de um banco de dados.
+
+### **Como rodar localmente**
+
+#### Digite o comando abaixo para clonar o repositório:
+```bash
+git clone https://github.com/brenobernardes/desafio-front.git
+```
+
+#### Ache o projeto localmente
+```bash
+cd Desafio-front
+```
+
+#### Instale as dependências
+```bash
+npm install
+```
+
+#### Inicie o projeto
+```bash
+npm start
+```
+
+### **Páginas do projeto**
+
+O projeto inicializa na página de seleção para "Cadastrar usuários" e "Usuários cadastrados". Ao cadastrar um novo usuário, automaticamente será salvo no Local Storage e vai atualizar a página de Usuários cadastrados.
+
+### **Pendências do desenvolvimento**
+
+1- Fazer estilização da página inicial e página de Usuários Cadastrados.
+2- Melhorar responsividade do Formulário de Cadastro de novos usuários.
 
 ## **Layout do projeto**
 
