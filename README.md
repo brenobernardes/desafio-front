@@ -14,6 +14,7 @@ git clone https://github.com/brenobernardes/desafio-front.git
 #### Ache o projeto localmente
 ```bash
 cd Desafio-front
+cd project
 ```
 
 #### Instale as dependências
