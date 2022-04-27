@@ -1,23 +1,23 @@
 :root {
     --black: #000000;
     --gray: #141414;
+    --light-gray: #F4F4F4;
     --white: #ffffff;
 }
 
 body {
-    background-color: var(--black);
+    background-color: var(--light-gray);
 }
 
 .userPage {
-    background: linear-gradient(0deg, var(--black) 0%, var(--white) 100%);
+    background: linear-gradient(180deg, var(--gray) 0%, var(--light-gray) 100%);
     flex-direction: column;
     display: flex;
     justify-content: center;
-    border: solid var(--black) 1px;
     border-top: solid var(--gray) 100px;
     margin: 2% 30%;
     height: 80vh;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 .profilePicture {
@@ -27,13 +27,15 @@ body {
 }
 
 .userPage img {
-    border-radius: 100px;
-    width: 10vw;
-    height: 10vw;
-    display: flex;
+    margin-top: -170px;
+    width: 150px;
+    height: 150px;
+    border-radius: 120px;
+    border: solid #fff 5px;
 }
 
 .userPage form {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,17 +43,19 @@ body {
 }
 
 .userPage label {
+    font-weight: bold;
     text-align: left;
-    padding: 15px;
+    padding: 10px;
 }
 
 .userPage input {
-    border: solid 1px var(--black);
+    border: solid 1px var(--white);
     border-radius: 5px;
     width: 30vw;
     height: 30px;
+    margin-bottom: 20px;
 }
 
 .button {
-    margin-top: 40px;
+    margin-top: 50px;
 }

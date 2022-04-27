@@ -4,15 +4,13 @@
     --white: #ffffff;
 }
 
-body {
-    background-color: var(--white);
-}
-
 .homePage {
+    padding: 10% 45%;
     width: 100px;
 }
 
 .homeLink{
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
